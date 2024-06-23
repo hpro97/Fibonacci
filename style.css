@@ -1,0 +1,101 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   color: aliceblue;
+}
+/* ----------------------------------------- */
+#banner{
+width: 100%;
+height: 10rem;
+}
+
+#bannerImg{
+   width: 100%;
+   height: 100%;
+}
+
+#bannerImg img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center
+}
+/* ----------------------------------------- */
+#inputAndDisplay{
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 20rem;
+}
+
+#length{
+   font-size: 1.5rem;
+}
+#number{
+   font-size: 1rem;
+}
+#submit{
+   font-size: 2rem;
+   margin-top: 1rem;
+   background-color: aliceblue;
+   color: black;
+   border: none;
+   padding: 1rem;
+   border-radius: 2rem;
+   width: 100%;
+}
+#submit:hover{
+   background-color: black;
+   color: aliceblue;
+}
+#display{
+   margin-top: 2rem;
+   background-color: rgba(69, 138, 194, 0.404);
+   width: 100%;
+   height: 60%;
+   text-align: center;
+}
+/* ----------------------------------------- */
+#info{
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 20rem;
+}
+#infoImg{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+}
+#infoImg img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center
+}
+#infoText{
+   width: 50%;
+   height: 100%;
+   text-align: left;
+   padding: 1rem;
+}
+/* ----------------------------------------- */
+#visualRepresentation{
+   background-color: rgba(69, 138, 194, 0.404);
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 20rem;
+}
+#visualImg

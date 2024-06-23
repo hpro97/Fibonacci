@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>fibonacci</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <section id="banner">
+      <div id="bannerImg">
+         <img src="./fibBanner.jpg" alt="fibonacci sequence banner of spiralling image">
+      </div>
+   </section>
+   
+   <section id="inputAndDisplay">
+      <form action="/index.html">
+         <label for="sequence" id="length">sequence length:</label>
+         <input type="number" id="number" name="number" min="1" step="1" pattern="^[1-9]\d*$" required><br>
+         <input type="submit" value="Submit" id="submit">
+      </form>
+      <div id="display">
+         <h3>replace logic so that sequence generated displays here, along with css changes etc</h3>
+      </div>
+   </section>
+
+   <section id="info">
+      <div id ="infoImg">
+         <img src="./fib.jpg" alt="fibonacci sequence display in spiral image">
+      </div>
+      <div id="infoText">
+         <p>The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, typically starting with 0 and 1. The sequence begins: 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on. This mathematical pattern appears frequently in nature, art, and computer science due to its elegant properties and visual appeal.</p>
+         <p>The Fibonacci sequence app allows users to input a desired sequence length. Upon submission, the app performs two main functions:</p>
+         <ul>
+            <li><strong>Display the Fibonacci Sequence Array:</strong> In one section of the app, it generates and displays an array containing the Fibonacci sequence up to the specified length. This array helps users see the numerical progression of the sequence.</li>
+            <li><strong>Visual Representation:</strong> In another section, the app provides a visual representation of the Fibonacci sequence. This visual might be in the form of spirals, rectangles, or other geometric shapes that demonstrate the sequence’s properties and its occurrence in natural and artistic forms.</li>
+         </ul>
+         <p>The combination of numerical and visual displays aids in understanding the Fibonacci sequence’s structure and beauty, making it both an educational and engaging tool for users.</p>
+      </div>
+   </section>
+
+   <section id="visualRepresentation">
+      <div id="visualImg">
+         <h3>replace with js logic to display visual represnetation of array generated for fib sequence logic along with css to make a display box</h3>
+      </div>
+   </section>
+   <script src="script.ts"></script>
+</body>
+
+</html>
+
+<!-- write logic for input to only allow numbers 0-9 to be pressed on key on form
+css for form
+write logic for display to display fibonacci sequence for length shown as array
+css for display make box
+css layout for info section
+css for info section make img and text always same height
+js for visual image dynamically generated from fibonacci sequence user input array -->
