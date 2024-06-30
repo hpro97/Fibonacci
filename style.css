@@ -37,8 +37,14 @@ form {
    justify-content: center;
    align-items: center;
    width: 100%;
-   height: 30rem;
+   height: 45rem;
    text-align: center;
+}
+
+@media (min-width: 1150px) {
+   #inputAndDisplay{
+      height: 30rem;
+   }
 }
 
 #length{
