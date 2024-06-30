@@ -1,7 +1,7 @@
 body{
    margin: 0;
    padding: 0;
-   background-color: black;
+   background-color: rgb(0, 11, 34);
    color: aliceblue;
 }
 /* ----------------------------------------- */
@@ -22,6 +22,14 @@ height: 10rem;
    object-position: center
 }
 /* ----------------------------------------- */
+form {
+   border: solid 0.3rem rgba(69, 138, 194, 0.404);
+   padding: 2rem;
+   border-radius: 2rem;
+   background-color: rgba(69, 138, 194, 0.404);
+   max-width: 30rem;
+
+}
 #inputAndDisplay{
    margin-top: 2rem;
    display: flex;
@@ -29,24 +37,28 @@ height: 10rem;
    justify-content: center;
    align-items: center;
    width: 100%;
-   height: 20rem;
+   height: 30rem;
+   text-align: center;
 }
 
 #length{
    font-size: 1.5rem;
+   margin-left: 1rem;
 }
 #number{
    font-size: 1rem;
+   margin-left: 1rem;
 }
 #submit{
+   align-items: center;
    font-size: 2rem;
-   margin-top: 1rem;
+   margin-top: 3rem;
    background-color: aliceblue;
    color: black;
    border: none;
    padding: 1rem;
    border-radius: 2rem;
-   width: 100%;
+   width: 60%;
 }
 #submit:hover{
    background-color: black;
@@ -57,35 +69,58 @@ height: 10rem;
    background-color: rgba(69, 138, 194, 0.404);
    width: 100%;
    height: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    text-align: center;
 }
 /* ----------------------------------------- */
 #info{
    margin-top: 2rem;
    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   flex-direction: column;
+   justify-content: center;
    align-items: center;
    width: 100%;
-   height: 20rem;
 }
 #infoImg{
-   width: 50%;
-   height: 100%;
+   width: 100%;
+   max-width: 30rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+   height: auto;
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
 }
 #infoImg img{
    width: 100%;
-   height: 100%;
+   height: auto;
    object-fit: cover;
-   object-position: center
+   object-position: center;
 }
 #infoText{
-   width: 50%;
-   height: 100%;
+   width: 100%;
+   max-width: 30rem;
    text-align: left;
-   padding: 1rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+}
+
+@media (min-width: 1150px) {
+   #info{
+      flex-direction: row;
+   }
+   #infoImg{
+      width: 50%;
+      margin-left: 2rem;
+   margin-right: 2rem;
+   }
+   #infoText{
+      width: 50%;
+      margin-left: 2rem;
+   margin-right: 2rem;
+   }
 }
 /* ----------------------------------------- */
 #visualRepresentation{
@@ -98,4 +133,6 @@ height: 10rem;
    width: 100%;
    height: 20rem;
 }
-#visualImg
+#visualImg{
+
+}
